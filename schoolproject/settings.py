@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%t)x^*s6pr2fy2vtr_2^wvnj46x#nq8widg$#yuw#(l@n4n%hl
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'python-web-app-iota.vercel.app/'
+    'python-web-app-iota.vercel.app'
 ]
 
 
