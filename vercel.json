@@ -2,15 +2,12 @@
     "version": 2,
     "builds": [
       {
-        "src": "manage.py",
+        "src": "schoolproject/asgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "manage.py"
-      }
+      { "src": "/(.*)", "dest": "schoolproject/asgi.py" }
     ]
   }
   
